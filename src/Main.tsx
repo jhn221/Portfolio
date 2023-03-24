@@ -10,8 +10,7 @@ const Main = () => {
 
     }
     return (
-        <div className='home'>
-        <div className='title'><div>웹 프론트엔드 개발자 장한나의 포트폴리오입니다</div></div>
+        // <div className='home'>
         <div className='main'>
             <div className='intro'>
                 <h3>about me</h3>
@@ -157,7 +156,7 @@ const Main = () => {
                 </div>
             </div>
         </div>
-        </div>
+        // </div>
     )
 }
 

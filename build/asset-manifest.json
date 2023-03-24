@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4c272c5b.css",
+    "main.js": "/static/js/main.991d0a56.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/NanumGothic-Regular.ttf": "/static/media/NanumGothic-Regular.6c84540de7730f833d6c.ttf",
+    "index.html": "/index.html",
+    "main.4c272c5b.css.map": "/static/css/main.4c272c5b.css.map",
+    "main.991d0a56.js.map": "/static/js/main.991d0a56.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c272c5b.css",
+    "static/js/main.991d0a56.js"
+  ]
+}

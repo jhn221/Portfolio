@@ -16,21 +16,33 @@ $blue: #228be6; // 주석 선언
 }
 .title{
     margin-bottom: 20px;
-    font-size: 40px;
-    font-weight: 900;
+    display: grid;
     height: 100vh;
     width: 100%;
     @media (max-width:700px) {
       font-size: 15px;
       }
     div{
-      height: 100vh;
+      height: 80vh;
       display: flex;
       justify-content: center;
       align-items: center;
+      font-size: 40px;
+      font-weight: 900;
+      @media (max-width:700px) {
+        font-size: 18px;
+      }
+    }
+    span{
+      text-align: end;
+      margin-right: 10px;
+      font-size: 20px;
+      @media (max-width:700px) {
+        font-size: 15px;
+      }
     }
 }
-
+  
 .intro{
   padding-bottom: 15px;
   border-bottom: 1px solid gray;
@@ -155,4 +167,36 @@ $blue: #228be6; // 주석 선언
 .content{
   display: grid;
   margin: 0px 0px 0 10px ;
+}
+
+.scroll-text {
+  font-size: 1rem;
+  transition: 1.5s;
+  color: white;
+  @media (max-width:700px) {
+    font-size: 0rem;
+  }
+}
+
+.scrolled-text {
+  font-size: 4rem;
+  color: black;
+  background-color: #eaf5ff;
+  border-end-end-radius: 200px;
+  border-end-start-radius: 200px;
+  transition: 1.5s;
+  @media (max-width:700px) {
+    font-size: 2rem;
+    border-end-end-radius: 100px;
+    border-end-start-radius: 100px;
+  }
+}
+
+.scroll {
+  font-size: 1rem;
+  transition: 1.5s;
+  color: white;
+  @media (max-width:700px) {
+    font-size: 0rem;
+  }
 }

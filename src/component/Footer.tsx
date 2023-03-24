@@ -6,7 +6,7 @@ const Footer = () => {
         <div className='FooterStyle'>
             <div className='info'>
                 created by React<br/>
-                Last Updated at 2023.03.21
+                Last Updated at 2023.03.23
             </div>
         </div>
     )
