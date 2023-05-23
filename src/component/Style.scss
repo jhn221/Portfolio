@@ -13,23 +13,27 @@ $blue: #228be6; // 주석 선언
     margin-bottom: 20px;
     background-color: aliceblue;
   }
+  img{
+    width: 13%;
+  }
 }
 .title{
     margin-bottom: 20px;
     display: grid;
-    height: 100vh;
+    height: 100%;
     width: 100%;
-    @media (max-width:700px) {
+    @media (max-width:1080px) {
       font-size: 15px;
       }
     div{
-      height: 80vh;
+      height: 70vh;
       display: flex;
+      margin-bottom: 80px;
       justify-content: center;
       align-items: center;
-      font-size: 40px;
+      font-size: 1.3em;
       font-weight: 900;
-      @media (max-width:700px) {
+      @media (max-width:43rem) {
         font-size: 18px;
       }
     }
@@ -37,7 +41,7 @@ $blue: #228be6; // 주석 선언
       text-align: end;
       margin-right: 10px;
       font-size: 20px;
-      @media (max-width:700px) {
+      @media (max-width:1080px) {
         font-size: 15px;
       }
     }
@@ -57,7 +61,7 @@ $blue: #228be6; // 주석 선언
 
 .introduce {
   font-size: medium;
-  @media (max-width:700px) {
+  @media (max-width:1080px) {
     font-size: small;
     }
 }
@@ -86,13 +90,29 @@ $blue: #228be6; // 주석 선언
   }
 }
 
+.stackImg{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  div{
+    display: flex;
+    justify-content: space-evenly;  
+  }
+  img{
+    width: 10%;
+    height: 10%;
+  }
+}
+
 .FooterStyle{
   display: grid;
-  justify-content: center;
+  justify-items: center;
   background-color: whitesmoke;
   margin-top: 20px;
   font-size: 10px;
-  
+  div{
+    margin-bottom: 5px;
+  }
 }
 
 .Logos{
@@ -154,13 +174,14 @@ $blue: #228be6; // 주석 선언
 .ProjectPic{
   img{
     width: 10vw;
-    height: 20vh;
+    height: 10vh;
     margin: 5px;
     cursor: pointer;
   }
-  :hover{
-    transform: scale(3.9);
-  }
+  // :hover{
+  //   transform: scale(3.9);
+  // }
+
   
 }
 
@@ -173,7 +194,7 @@ $blue: #228be6; // 주석 선언
   font-size: 1rem;
   transition: 1.5s;
   color: white;
-  @media (max-width:700px) {
+  @media (max-width:1080px) {
     font-size: 0rem;
   }
 }
@@ -185,7 +206,7 @@ $blue: #228be6; // 주석 선언
   border-end-end-radius: 200px;
   border-end-start-radius: 200px;
   transition: 1.5s;
-  @media (max-width:700px) {
+  @media (max-width:1080px) {
     font-size: 2rem;
     border-end-end-radius: 100px;
     border-end-start-radius: 100px;
@@ -196,7 +217,92 @@ $blue: #228be6; // 주석 선언
   font-size: 1rem;
   transition: 1.5s;
   color: white;
-  @media (max-width:700px) {
+  @media (max-width:1080px) {
     font-size: 0rem;
   }
+}
+
+.more{
+  margin:20px;
+  border: 0;
+  background-color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  div{
+    margin-bottom: 20px;
+  }
+}
+.allow{
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.Up{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(230, 223, 223);
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  margin:10px 0 0 85%;
+}
+.UpIcon{
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+
+
+
+
+.background {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  
+}
+
+.modal {
+  background-color: white;
+  width: 80%;
+  height: 90%;
+}
+
+.viewer {
+  text-align: center;
+  height: 85%;
+  img{
+    width: 90vh;
+    @media (max-width:1280px) {
+      width: 60%;
+
+    }
+  }
+}
+
+.viewer img {
+  height: 100%;
+  @media (max-width:1280px) {
+    height: 30%;
+    margin-top: 60%
+  }
+  
+}
+
+.thumbnails {
+  text-align: center;
+  height: 10%;
+  margin-top: 20px;
+}
+
+.thumbnails img {
+  height: 100%;
 }
