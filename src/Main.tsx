@@ -17,13 +17,25 @@ const Main = forwardRef<any>((props, ref) => {
                 <h3>about me</h3>
                 <div className='aboutMe'>
                     <h5>함께 일하고 싶은 개발자가 되자<br/><br/></h5>
-                    <span className='introduce'>평소 구현되어 있는 사이트를 들어가보면서 바꾸고 싶은 부분이나 수정하고 싶은 부분들이 있는 웹 사이트가 있었습니다.<br/>
+                    <span className='introduce'>
+                    <strong>React 를 주력으로 가지고 있는 개발자 장한나입니다.</strong><br/><br/>
+                    <strong>- 개발 능력 향상을 위해서 인터넷 강의와 기술블로그를 작성중입니다.</strong><br/>
+                    블로그 스터디에 참여하여 주 4회 팀 프로젝트, 사용했던 라이브러리, 최근 공부하는 typescript와 flutter에 대한 기록을 꾸준히 작성중입니다.<br/><br/>
+                    <strong>- 신기술을 학습하는 것에 관심이 많습니다.</strong><br/>
+                    현재 javascript외에도 typescript 와 dart 언어를 익히고 있습니다.<br/>
+                    flutter 공부를 위한 dart 언어를 "노마드코더"동영상 강의로 수강하고 있으며 flutter공식 유튜브에서 나온 위젯 영상도 꾸준히 시청하며 실제 프로젝트에 적용해보고 있습니다.<br/>
+                    typescript에 대해서 인터넷 강의와 더불어 필요한 이론은 유튜브와 검색을 통해 이론을 학습하고 있습니다.<br/><br/>
+                    <strong>- 백엔드와 협업하여 javascript를 이용한 프로젝트를 2회 진행한 경험이 있습니다.</strong><br/>
+                    현재는 런타임 에러를 방지하며 타입 안정성을 지켜주는데 장점이 있는 typescript를 이용하여 sayo 팀 프로젝트를 진행하고 있습니다.<br/>
+                    프로젝트 중 더욱 완성도 높은 웹 사이트를 만들기 위해 QA를 진행한 뒤 수정을 거쳐 사용자가 만족할 수 있는 결과물을 만들어 낸 경험이 있습니다.<br/><br/>
+                    <strong>개발자로서 역량과 경험을 쌓아 최신 기술과 동향을 파악하는데 두려움 없이 항상 더 나은 결과물을 만들기 위해 노력하겠습니다.</strong><br/>
+                        {/* 평소 구현되어 있는 사이트를 들어가보면서 바꾸고 싶은 부분이나 수정하고 싶은 부분들이 있는 웹 사이트가 있었습니다.<br/>
                     먼저 눈으로 보이는 부분을 그려보고 싶다는 생각이 들어 먼저 JavaScript 인터넷 강의를 수강했습니다.<br/>
                     또한 기존 인터넷 강의를 보며 구현한 기능에서 더 나아가 새로운 기능을 넣어보는 스터디를 진행했습니다.<br/>
                     하지만 독학에서는 협업을 경험하기 힘들었고, 페어 활동 및 프로젝트에서 협업을 경험할 수 있는 부트캠프 프론트엔드 과정을 이수했습니다.<br/><br/>
                     6개월간의 학습과 2건의 프로젝트를 진행 후 수료를 했지만 마지막으로 프로젝트를 하면서 느낀 수 많은 type error와 run time 에러 등으로 javascript에 한계를 경험했습니다.
                     <br/> 뭘봐유 프로젝트를 함께 했던 팀원들과 다시 한번 프로젝트를 하기로 결정했고, typescript를 이용한 프로젝트를 진행하고 있으며 부족한 이론을 채우기 위해 유튜브 등 인터넷 강의를 병행하며 학습하고 있습니다.<br/>
-                    지금까지의 경험과 이를 통해 얻은 지식을 발판으로 함께 일하고 싶은 개발자가 되자는 목표를 가지고 발전하기 위해 노력하겠습니다.<br/>
+                    지금까지의 경험과 이를 통해 얻은 지식을 발판으로 함께 일하고 싶은 개발자가 되자는 목표를 가지고 발전하기 위해 노력하겠습니다.<br/> */}
                    </span>
                 </div>
                 {/* <div className='aboutMe'>
@@ -45,21 +57,23 @@ const Main = forwardRef<any>((props, ref) => {
                     </div>
                     <div>
                         <img src={require('./img/react.png')} alt='react'/>
+                        <img src={require('./img/flutter.png')} alt='flutter'/>
 
                     </div>
                     <div>
-                        <img src={require('./img/HTML&CSS.png')} alt='react'/>
-                        <img src={require('./img/javascript.png')} alt='react'/>
-                        <img src={require('./img/typescript.png')} alt='react'/>
+                        <img src={require('./img/HTML&CSS.png')} alt='HTML&CSS'/>
+                        <img src={require('./img/javascript.png')} alt='javascript'/>
+                        <img src={require('./img/typescript.png')} alt='typescript'/>
+                        <img src={require('./img/dart.png')} alt='dart'/>
                     </div>
                     <div>
-                        <img src={require('./img/styledComponent.png')} alt='react'/>
+                        <img src={require('./img/styledComponent.png')} alt='styleComponent'/>
                         <img src={require('./img/sass.png')} alt='react'/>
                     </div>
                     <div>
-                        <img src={require('./img/reactQuery.png')} alt='react'/>
-                        <img src={require('./img/recoil.png')} alt='react'/>
-                        <img src={require('./img/redux.jpeg')} alt='react'/>
+                        <img src={require('./img/reactQuery.png')} alt='reactQuery'/>
+                        <img src={require('./img/recoil.png')} alt='recoil'/>
+                        <img src={require('./img/redux.jpeg')} alt='redux'/>
                     </div>
                 </div>
             <h3>project</h3>
