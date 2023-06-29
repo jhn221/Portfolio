@@ -30,7 +30,7 @@
 
 .desktopImg{
    h4{
-       margin-left: 20px;
+       margin: 20px;
    }
     img{
         width: 40%;
@@ -147,4 +147,47 @@
         margin: 1px;
     }
     
+}
+.quizImg{
+    // @extend .mobileImg;
+    width: 100%;
+    background-color: #fdffff;
+    color: white;
+    img{
+        margin: 12px;
+        width: 15%;
+    }
+    
+}
+.Timer{
+    @extend .Pro1Pic1;
+    width: 97%;
+    background-color: #58b1f5a0;
+    color: white;
+    img{
+        margin: 12px;
+        width: 15%;
+    }
+    
+}
+.MoviePic1{
+    @extend .Pro2Pic2;
+    background-color: white;
+    div{
+        margin-left: 20px;
+    }
+    img{
+        width: 20%;
+    }
+    
+}
+.detail{
+    margin: 20px;
+    font-size: 1em;
+}
+
+.quiz{
+    @extend .Timer;
+    background-color: #8ca891;
+
 }
