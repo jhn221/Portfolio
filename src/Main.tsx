@@ -18,7 +18,7 @@ const Main = forwardRef<any>((props, ref) => {
                 <div className='aboutMe'>
                     <h5>함께 일하고 싶은 개발자가 되자<br/><br/></h5>
                     <span className='introduce'>
-                    <strong>React 를 주력으로 가지고 있는 개발자 장한나입니다.</strong><br/><br/>
+                    {/* <strong>React 를 주력으로 가지고 있는 개발자 장한나입니다.</strong><br/><br/>
                     <strong>- 개발 능력 향상을 위해서 인터넷 강의와 기술블로그를 작성중입니다.</strong><br/>
                     블로그 스터디에 참여하여 주 4회 팀 프로젝트, 사용했던 라이브러리, 최근 공부하는 typescript와 flutter에 대한 기록을 꾸준히 작성중입니다.<br/><br/>
                     <strong>- 신기술을 학습하는 것에 관심이 많습니다.</strong><br/>
@@ -28,14 +28,14 @@ const Main = forwardRef<any>((props, ref) => {
                     <strong>- 백엔드와 협업하여 javascript를 이용한 프로젝트를 2회 진행한 경험이 있습니다.</strong><br/>
                     현재는 런타임 에러를 방지하며 타입 안정성을 지켜주는데 장점이 있는 typescript를 이용하여 sayo 팀 프로젝트를 진행하고 있습니다.<br/>
                     프로젝트 중 더욱 완성도 높은 웹 사이트를 만들기 위해 QA를 진행한 뒤 수정을 거쳐 사용자가 만족할 수 있는 결과물을 만들어 낸 경험이 있습니다.<br/><br/>
-                    <strong>개발자로서 역량과 경험을 쌓아 최신 기술과 동향을 파악하는데 두려움 없이 항상 더 나은 결과물을 만들기 위해 노력하겠습니다.</strong><br/>
-                        {/* 평소 구현되어 있는 사이트를 들어가보면서 바꾸고 싶은 부분이나 수정하고 싶은 부분들이 있는 웹 사이트가 있었습니다.<br/>
+                    <strong>개발자로서 역량과 경험을 쌓아 최신 기술과 동향을 파악하는데 두려움 없이 항상 더 나은 결과물을 만들기 위해 노력하겠습니다.</strong><br/> */}
+                        평소 구현되어 있는 사이트를 들어가보면서 바꾸고 싶은 부분이나 수정하고 싶은 부분들이 있는 웹 사이트가 있었습니다.<br/>
                     먼저 눈으로 보이는 부분을 그려보고 싶다는 생각이 들어 먼저 JavaScript 인터넷 강의를 수강했습니다.<br/>
                     또한 기존 인터넷 강의를 보며 구현한 기능에서 더 나아가 새로운 기능을 넣어보는 스터디를 진행했습니다.<br/>
                     하지만 독학에서는 협업을 경험하기 힘들었고, 페어 활동 및 프로젝트에서 협업을 경험할 수 있는 부트캠프 프론트엔드 과정을 이수했습니다.<br/><br/>
                     6개월간의 학습과 2건의 프로젝트를 진행 후 수료를 했지만 마지막으로 프로젝트를 하면서 느낀 수 많은 type error와 run time 에러 등으로 javascript에 한계를 경험했습니다.
-                    <br/> 뭘봐유 프로젝트를 함께 했던 팀원들과 다시 한번 프로젝트를 하기로 결정했고, typescript를 이용한 프로젝트를 진행하고 있으며 부족한 이론을 채우기 위해 유튜브 등 인터넷 강의를 병행하며 학습하고 있습니다.<br/>
-                    지금까지의 경험과 이를 통해 얻은 지식을 발판으로 함께 일하고 싶은 개발자가 되자는 목표를 가지고 발전하기 위해 노력하겠습니다.<br/> */}
+                    <br/> 뭘봐유 프로젝트를 함께 했던 팀원들과 다시 한번 프로젝트를 하기로 결정했고, typescript를 이용한 프로젝트를 진행하고 있으며 부족한 이론을 채우기 위해 유튜브 등 인터넷 강의를 병행하며 학습하고 있습니다.<br/><br/>
+                    지금까지의 경험과 이를 통해 얻은 지식을 발판으로 함께 일하고 싶은 개발자가 되자는 목표를 가지고 발전하기 위해 노력하겠습니다.<br/>
                    </span>
                 </div>
                 {/* <div className='aboutMe'>
@@ -81,7 +81,7 @@ const Main = forwardRef<any>((props, ref) => {
             <div className='Project'>
                 <div className='ProjectSummary'>
                     <h2>SAYO</h2>
-                    <div>2023.02.21 ~ 현재</div>
+                    <div>2023.02 ~ 2023.06</div>
                     배포링크 : 
                     <a href='http://sayo.s3-website.ap-northeast-2.amazonaws.com//'>'sayo'</a>
                     
@@ -107,7 +107,7 @@ const Main = forwardRef<any>((props, ref) => {
             <div className='Project'>
                 <div className='ProjectSummary'>
                         <h2>뭘봐유</h2>
-                    <div>2023.01.02 ~ 2023.02.03</div>
+                    <div>2023.01 ~ 2023.01</div>
                     회고 :<a href='https://jhn221.tistory.com/84'> 뭘봐유 프로젝트 회고</a>
                 </div>
                 <div className='ProjectDetail'>
@@ -129,7 +129,24 @@ const Main = forwardRef<any>((props, ref) => {
                         {/* <Image2/> */}
                     </div>
                 </div>                
-               
+            </div>
+            <div className='Project'>
+                <div className='ProjectSummary'>
+                        <h2>Flutter</h2>
+                        <div>2023.05 ~ </div>
+                    </div>
+                <div className='ProjectDetail'>
+                    <div className='aboutProject'>레벨과 주제를 선택하여 작문 영어 공부를 할 수 있도록 구현된 앱 어플리케이션 입니다.</div><br/>
+                    <div>참여인원 : <span>1명</span></div>
+                    <div>사용 언어 및 프레임워크 : <span>dart, flutter, getx, OpenAPI(ChatGPT), firebase(auth, firestore, config) </span></div>
+                    <br/>
+                    <Link to='/flutter'>
+                       flutter 프로젝트 세부정보 더보기
+                    </Link>
+                    <div className='ProjectPic'>
+                        {/* <Image2/> */}
+                    </div>
+                </div>                
             </div>
             <div className='Project'>
                 <div className='ProjectSummary'>
